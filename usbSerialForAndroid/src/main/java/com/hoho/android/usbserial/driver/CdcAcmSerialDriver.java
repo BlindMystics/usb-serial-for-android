@@ -311,6 +311,38 @@ public class CdcAcmSerialDriver implements UsbSerialDriver {
                 new int[] {
                     UsbId.ARM_MBED,
                 });
+        supportedDevices.put(UsbId.VENDOR_ARDUINO2,
+                new int[] {
+                    UsbId.VAN_OOIJEN_TECH_TEENSYDUINO_SERIAL,
+                    UsbId.ST_ARM_PX4,
+                    UsbId.PIXHAWK,
+                });
+        supportedDevices.put(UsbId.VENDOR_STM_PROBABLY,
+                new int[] {
+                        UsbId.SKYDROID_DEVICE_2020T12F0293,
+                        UsbId.STM32_NUCLEO,
+                });
+        supportedDevices.put(UsbId.VENDOR_HEX,
+                new int[] {
+                        UsbId.HEX_CUBE_BLACK_PLUS,
+                        UsbId.HEX_CUBE_BLACK_BOOTLOADER,
+                        UsbId.HEX_CUBE_BLACK,
+                        UsbId.HEX_CUBE_ORANGE_COMPOSITE,
+                        UsbId.HEX_CUBE_PURPLE_BOOTLOADER,
+                        UsbId.HEX_CUBE_PURPLE,
+                        UsbId.HEX_CUBE_YELLOW_BOOTLOADER,
+                        UsbId.HEX_CUBE_YELLOW_COMPOSITE,
+
+                });
+        supportedDevices.put(UsbId.VENDOR_ARDUPILOT_SLCAN,
+                new int[] {
+                        UsbId.ARDUPILOT_SLCAN_DEVICE_1,
+                        UsbId.ARDUPILOT_SLCAN_DEVICE_2,
+                });
+        supportedDevices.put(UsbId.VENDOR_ARDUPILOT_MCSELEC,
+                new int[] {
+                        UsbId.ARDUPILOT_MCSELEC_FUTURE_RESERVED,
+                });
         return supportedDevices;
     }
 

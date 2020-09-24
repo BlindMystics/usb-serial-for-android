@@ -27,6 +27,7 @@ public final class UsbId {
     public static final int ATMEL_LUFA_CDC_DEMO_APP = 0x2044;
 
     public static final int VENDOR_ARDUINO = 0x2341;
+    public static final int VENDOR_ARDUINO2 = 0x26ac;
     public static final int ARDUINO_UNO = 0x0001;
     public static final int ARDUINO_MEGA_2560 = 0x0010;
     public static final int ARDUINO_SERIAL_ADAPTER = 0x003b;
@@ -36,7 +37,35 @@ public final class UsbId {
     public static final int ARDUINO_MEGA_ADK_R3 = 0x0044;
     public static final int ARDUINO_SERIAL_ADAPTER_R3 = 0x0044;
     public static final int ARDUINO_LEONARDO = 0x8036;
+    public static final int ST_ARM_PX4 = 0x0010;
+    public static final int PIXHAWK = 0x0011;
     public static final int ARDUINO_MICRO = 0x8037;
+
+    //https://ardupilot.org/dev/docs/USB-IDs.html
+
+    //Untested:
+    public static final int VENDOR_HEX = 0x2dae;
+    public static final int HEX_CUBE_BLACK_PLUS = 0x1101;
+    public static final int HEX_CUBE_BLACK_BOOTLOADER = 0x1001;
+    public static final int HEX_CUBE_BLACK = 0x1011;
+    public static final int HEX_CUBE_ORANGE_COMPOSITE = 0x1016;
+    public static final int HEX_CUBE_PURPLE_BOOTLOADER = 0x1005;
+    public static final int HEX_CUBE_PURPLE = 0x1015;
+    public static final int HEX_CUBE_YELLOW_BOOTLOADER = 0x1002;
+    public static final int HEX_CUBE_YELLOW_COMPOSITE = 0x1012;
+
+    public static final int VENDOR_STM_PROBABLY = 0x0483;
+    public static final int SKYDROID_DEVICE_2020T12F0293 = 0x5740;
+    public static final int STM32_NUCLEO = 0x374b;
+
+    //Untested:
+    public static final int VENDOR_ARDUPILOT_SLCAN = 0x1209;
+    public static final int ARDUPILOT_SLCAN_DEVICE_1 = 0x5740;
+    public static final int ARDUPILOT_SLCAN_DEVICE_2 = 0x5741;
+
+    //Untested:
+    public static final int VENDOR_ARDUPILOT_MCSELEC = 0x16d0;
+    public static final int ARDUPILOT_MCSELEC_FUTURE_RESERVED = 0x0e65;
 
     public static final int VENDOR_VAN_OOIJEN_TECH = 0x16c0;
     public static final int VAN_OOIJEN_TECH_TEENSYDUINO_SERIAL = 0x0483;
